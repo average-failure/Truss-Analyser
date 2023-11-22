@@ -33,7 +33,7 @@ public record Force(double x, double y, double magnitude, double angle)
   public String toString() {
     final boolean byXY = false;
     if (byXY) {
-      return String.format("Force [x=%.3f, y=%.3f]", x, y);
+      return String.format("Force [x=%.1f, y=%.1f]", x, y);
     } else return String.format(
       "%sN (%s)",
       formatWithPostfix(Math.abs(magnitude)),
@@ -55,6 +55,6 @@ public record Force(double x, double y, double magnitude, double angle)
       value /= 1_000;
     } else postfix = "";
 
-    return String.format("%.3f%s", value, postfix);
+    return String.format("%.1f%s", value, postfix);
   }
 }
