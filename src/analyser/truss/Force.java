@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public record Force(double x, double y, double magnitude, double angle)
   implements Serializable {
-  private static final long serialVersionUID = 9237524L;
+  private static final long serialVersionUID = 9237526L;
 
   public static Force byXY(double x, double y) {
     return new Force(

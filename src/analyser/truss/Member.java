@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 public class Member implements Serializable {
 
-  private static final long serialVersionUID = 523485387L;
+  private static final long serialVersionUID = 523485389L;
 
   private final Joint joint1;
   private final Joint joint2;

@@ -11,7 +11,7 @@ import java.util.function.Predicate;
 
 public class Truss implements Serializable {
 
-  private static final long serialVersionUID = 15249845L;
+  private static final long serialVersionUID = 15249847L;
 
   private final List<Joint> joints;
   private final List<Member> members;

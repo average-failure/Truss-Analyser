@@ -11,7 +11,7 @@ import java.util.function.Predicate;
 
 public class Joint implements Serializable {
 
-  private static final long serialVersionUID = 2497505953L;
+  private static final long serialVersionUID = 2497505955L;
 
   public static final Color BASE_COLOUR = Color.BLUE;
   public static final Color FIXED_COLOUR = Color.CYAN;
